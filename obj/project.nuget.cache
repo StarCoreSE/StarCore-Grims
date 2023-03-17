@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "EEya4u+CNhaKb3hkrUjppM96/Hwk6sOzAPqdKJOwV0cd6bh9YPi+ZXtJFPAJaEBba2own7TL0sDZ/nGSwEVXgg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alex\\AppData\\Roaming\\SpaceEngineers\\Mods\\StarCoreGrims\\CoreParts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alex\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Alex\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
