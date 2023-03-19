@@ -17,7 +17,7 @@ namespace Scripts {
             {
                 MountPoints = new[] {
                     new MountPointDef {
-                        SubtypeId = "K_SA_Launcher_FixedMount", // Block Subtypeid. Your Cubeblocks contain this information
+                        SubtypeId = "65_Launcher_FixedMount", // Block Subtypeid. Your Cubeblocks contain this information
                         SpinPartId = "None", // For weapons with a spinning barrel such as Gatling Guns.
                         MuzzlePartId = "None", // The subpart where your muzzle empties are located. This is often the elevation subpart.
                         AzimuthPartId = "None", // Your Rotating Subpart, the bit that moves sideways
@@ -181,14 +181,10 @@ namespace Scripts {
                 },
             },
             Ammos = new[] {
-                K_SA_Grimlock_Standard,
-                K_SA_KineticKill,
-                K_SA_GravityFissure,
-                K_SA_KineticKill_Shrap,
-                K_SA_Grimlock_Shrap,
-                K_SA_Grimlock_Standard_Terminal,
-                K_SA_GravityFissure_Terminal,
-                K_SA_Grimlock_Standard_EWAR,
+                Grim_SC_Launch,
+                Grim_SC_Terminal,
+                Grim_SC_Fragment,
+
                 // Must list all primary, shrapnel, and pattern ammos.
             },
             //Animations = K_SA_LauncherAnimations,
