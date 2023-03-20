@@ -6,7 +6,7 @@
 			<!-- Grimlock II Launcher -->
 			<Id>
 				<TypeId>ConveyorSorter</TypeId>
-				<SubtypeId>K_SA_Launcher_FixedMountv2</SubtypeId>
+				<SubtypeId>65_Launcher_FixedMountv2</SubtypeId>
 			</Id>
 			<DisplayName>SA  Grimlock-II Launcher</DisplayName>
 			<Description>
@@ -17,7 +17,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="4" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\SerpentArms\SA_Launcherv2_Large.mwm</Model>
+			<Model>Models\SA_Launcherv2_Large.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
 				<Component Subtype="SteelPlate" Count="150" />
@@ -85,7 +85,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="3" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\SerpentArms\SA_Launcher_Large.mwm</Model>
+			<Model>Models\SA_Launcher_Large.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
 				<Component Subtype="SteelPlate" Count="50" />

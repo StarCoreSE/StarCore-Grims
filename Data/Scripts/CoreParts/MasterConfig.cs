@@ -10,7 +10,9 @@ namespace Scripts
             // Enable your definitions using the follow syntax:
             // PartDefinitions(Your1stDefinition, Your2ndDefinition, Your3rdDefinition);
             // PartDefinitions includes both weapons and phantoms
-            PartDefinitions(Weapon75);
+            PartDefinitions(
+                Grimlock_Launcher                
+                );
             
         }
     }
