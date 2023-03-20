@@ -103,7 +103,27 @@
     </Sound>
 	
 	
-		
+	
+	<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>DioImpact</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>15000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>1.5</Volume>
+	  <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Missile\DioImpact.wav</Start>
+        </Wave>
+        </Waves>
+    </Sound>
+	
+	
   
   </Sounds>
 </Definitions>
