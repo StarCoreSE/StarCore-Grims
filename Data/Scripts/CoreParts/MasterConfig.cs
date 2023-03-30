@@ -11,7 +11,8 @@ namespace Scripts
             // PartDefinitions(Your1stDefinition, Your2ndDefinition, Your3rdDefinition);
             // PartDefinitions includes both weapons and phantoms
             PartDefinitions(
-                Grimlock_Launcher                
+                Grimlock_Launcher,
+				Starcore_L_Laser                
                 );
             
         }

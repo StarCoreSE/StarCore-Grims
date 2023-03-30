@@ -142,6 +142,7 @@
 			<MaxFov>2</MaxFov>
 			<EmissiveColorPreset>Default</EmissiveColorPreset>
 		</Definition>
+		
 
 	</CubeBlocks>
 </Definitions>
