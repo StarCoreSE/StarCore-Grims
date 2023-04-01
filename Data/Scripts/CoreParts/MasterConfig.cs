@@ -12,7 +12,7 @@ namespace Scripts
             // PartDefinitions includes both weapons and phantoms
             PartDefinitions(
                 Grimlock_Launcher,
-				Starcore_L_Laser                
+				Hellfire_Laser                
                 );
             
         }

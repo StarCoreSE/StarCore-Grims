@@ -16,6 +16,19 @@
 	  <ReloadTime>0</ReloadTime>
     </Weapon>
 
+	  <Weapon>
+		  <Id>
+			  <TypeId>WeaponDefinition</TypeId>
+			  <SubtypeId>Hellfire Laser</SubtypeId>
+		  </Id>
+		  <ProjectileAmmoData RateOfFire="0" ShootSoundName="220mmMissileShot" ShotsInBurst="8"/>
+		  <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+		  <DeviateShotAngle>2</DeviateShotAngle>
+		  <AmmoMagazines>
+			  <AmmoMagazine Subtype="Energy" />
+		  </AmmoMagazines>
+		  <ReloadTime>0</ReloadTime>
+	  </Weapon>
 	
   </Weapons>
 </Definitions>

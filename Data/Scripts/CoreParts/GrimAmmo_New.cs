@@ -2435,12 +2435,12 @@ namespace Scripts
                 Enable = true, // Enables EWAR effects AND DISABLES BASE DAMAGE AND AOE DAMAGE!!
                 Type = Pull, // EnergySink, Emp, Offense, Nav, Dot, AntiSmart, JumpNull, Anchor, Tractor, Pull, Push, 
                 Mode = Field, // Effect , Field
-                Strength = 10f,
+                Strength = 15f,
                 Radius = 500f, // Meters
-                Duration = 600, // In Ticks
+                Duration = 10, // In Ticks
                 StackDuration = false, // Combined Durations
-                Depletable = false,
-                MaxStacks = 10, // Max Debuffs at once
+                Depletable = true,
+                MaxStacks = 2, // Max Debuffs at once
                 NoHitParticle = false,
                 /*
                 EnergySink : Targets & Shutdowns Power Supplies, such as Batteries & Reactor
@@ -2467,7 +2467,7 @@ namespace Scripts
                 },
                 Field = new FieldDef
                 {
-                    Interval = 30, // Time between each pulse, in game ticks (60 == 1 second), starts at 0 (59 == tick 60).
+                    Interval = 10, // Time between each pulse, in game ticks (60 == 1 second), starts at 0 (59 == tick 60).
                     PulseChance = 100, // Chance from 0 - 100 that an entity in the field will be hit by any given pulse.
                     GrowTime = 60, // How many ticks it should take the field to grow to full size.
                     HideModel = false, // Hide the default bubble, or other model if specified.
@@ -2497,7 +2497,7 @@ namespace Scripts
                 Guidance = None, // None, Remote, TravelTo, Smart, DetectTravelTo, DetectSmart, DetectFixed
                 TargetLossDegree = 0f, // Degrees, Is pointed forward
                 TargetLossTime = 0, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
-                MaxLifeTime = 600, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..). time begins at 0 and time must EXCEED this value to trigger "time > maxValue". Please have a value for this, It stops Bad things.
+                MaxLifeTime = 605, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..). time begins at 0 and time must EXCEED this value to trigger "time > maxValue". Please have a value for this, It stops Bad things.
                 AccelPerSec = 1200f, // Acceleration in Meters Per Second. Projectile starts on tick 0 at its parents (weapon/other projectiles) travel velocity.
                 DesiredSpeed = 1800, // voxel phasing if you go above 5100
                 MaxTrajectory = 15000f, // Max Distance the projectile or beam can Travel.
