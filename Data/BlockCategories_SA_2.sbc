@@ -11,6 +11,7 @@
       <Name>Serpent Arms</Name>
       <ItemIds>
 		<string>65_Launcher_FixedMount</string>
+		<string>Hellfire_Laser</string>
       </ItemIds>
     </Category>
 	
