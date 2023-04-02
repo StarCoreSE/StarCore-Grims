@@ -1038,7 +1038,7 @@ namespace Scripts
                     AreaEffect = Kinetic,
                     Detonation = Kinetic,
                     Shield = Kinetic, // Damage against shields is currently all of one type per projectile. Shield Bypass Weapons, always Deal Energy regardless of this line
-                },
+                },    
                 Deform = new DeformDef
                 {
                     DeformType = HitBlock,
