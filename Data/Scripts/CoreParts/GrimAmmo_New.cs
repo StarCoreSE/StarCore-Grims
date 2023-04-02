@@ -151,9 +151,9 @@ namespace Scripts
                 DamageType = new DamageTypes // Damage type of each element of the projectile's damage; Kinetic, Energy
                 {
                     Base = Kinetic, // Base Damage uses this
-                    AreaEffect = Energy,
-                    Detonation = Energy,
-                    Shield = Energy, // Damage against shields is currently all of one type per projectile. Shield Bypass Weapons, always Deal Energy regardless of this line
+                    AreaEffect = Kinetic,
+                    Detonation = Kinetic,
+                    Shield = Kinetic, // Damage against shields is currently all of one type per projectile. Shield Bypass Weapons, always Deal Energy regardless of this line
                 },
                 Deform = new DeformDef
                 {
@@ -1035,9 +1035,9 @@ namespace Scripts
                 DamageType = new DamageTypes // Damage type of each element of the projectile's damage; Kinetic, Energy
                 {
                     Base = Kinetic, // Base Damage uses this
-                    AreaEffect = Energy,
-                    Detonation = Energy,
-                    Shield = Energy, // Damage against shields is currently all of one type per projectile. Shield Bypass Weapons, always Deal Energy regardless of this line
+                    AreaEffect = Kinetic,
+                    Detonation = Kinetic,
+                    Shield = Kinetic, // Damage against shields is currently all of one type per projectile. Shield Bypass Weapons, always Deal Energy regardless of this line
                 },
                 Deform = new DeformDef
                 {
