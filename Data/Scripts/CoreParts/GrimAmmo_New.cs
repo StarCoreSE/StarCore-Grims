@@ -802,12 +802,12 @@ namespace Scripts
                 {
                     Ammo = new ParticleDef
                     {
-                        Name = "", //ShipWelderArc
+                        Name = "RocketTrail", //ShipWelderArc
                         Offset = Vector(x: 0, y: 0, z: 0),
                         DisableCameraCulling = true,// If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
                         Extras = new ParticleOptionDef
                         {
-                            Scale = 1,
+                            Scale = 0.7f,
                         },
                     },
                     Hit = new ParticleDef
@@ -846,7 +846,7 @@ namespace Scripts
                         Enable = true,
                         Length = 5f, //
                         Width = 0.1f, //
-                        Color = Color(red: 0, green: 35, blue: 0f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
+                        Color = Color(red: 35, green: 2, blue: 0f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
                         FactionColor = DontUse, // DontUse, Foreground, Background.
                         VisualFadeStart = 0, // Number of ticks the weapon has been firing before projectiles begin to fade their color
                         VisualFadeEnd = 0, // How many ticks after fade began before it will be invisible.
@@ -2128,12 +2128,12 @@ namespace Scripts
                 {
                     Ammo = new ParticleDef
                     {
-                        Name = "", //ShipWelderArc
+                        Name = "RocketTrail", //ShipWelderArc
                         Offset = Vector(x: 0, y: 0, z: 0),
                         DisableCameraCulling = true,// If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
                         Extras = new ParticleOptionDef
                         {
-                            Scale = 1,
+                            Scale = 0.5f,
                         },
                     },
                     Hit = new ParticleDef
