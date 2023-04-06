@@ -154,7 +154,7 @@
 					[Energy damage]
 					[Hitscan]
 			</Description>
-			<Icon>Textures\Large Laser.dds</Icon>
+			<Icon>Textures\Hellfire.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<GuiVisible>true</GuiVisible>
 			<BlockTopology>TriangleMesh</BlockTopology>
